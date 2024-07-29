@@ -1,0 +1,274 @@
+*{
+    background-color:  rgb(236, 208, 118);
+    padding:0;
+    margin:0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 170px;
+    top: 0;
+    background-color: rgb(220, 153, 60);
+}
+.navbar img {
+    width: 110px;
+    margin-bottom: 20px;
+    background-color: rgb(220, 153, 60);
+}
+.navbar p{
+    background-color: rgb(220, 153, 60);
+    font-family: "Archivo Black", sans-serif;
+    font-size: 750%;
+    margin-left: 20px;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px black;
+}
+#sticky {
+    position: fixed;
+    bottom: 2%;
+    margin-left: 90%;
+   
+
+}
+#sticky img {
+    flex-direction: column;
+    justify-content: center;
+
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+    
+   /* background-color:  rgb(220, 153, 60);*/
+}
+
+.caption{
+    position: sticky;
+    top:0;
+    
+}
+
+.caption h4{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0px;
+    color: rgb(48, 31, 19);
+    background-color: rgb(220, 153, 60);
+    font-size: 16px;
+    justify-content: center;
+}
+.star{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    
+}
+.top{
+    display: flex;
+    padding:70px;
+}
+.top img{
+    margin-left: 40px;
+    border-radius: 3%;
+}
+.st{
+    
+        margin-left: 10%;
+        margin-right: 8%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: justify;
+        margin-top: 25px;
+}
+.dunk{
+
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        
+    
+}
+.top2{
+    display: flex;
+    padding:70px;
+    margin-top: 0;
+}
+.top2 img{
+    
+    border-radius: 3%;
+    float:right;
+    margin-left: 40px;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    grid-gap: 40px;
+    background-color: rgb(220, 153, 60);
+    margin:0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 19%;
+    padding-right: 19%;
+    
+    
+}
+#gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(236, 208, 118);
+}
+
+.container1 img{
+    border-radius: 10%;
+}
+.container1 img:hover{
+   transform: scale(1.01);
+   box-shadow: black;
+
+}
+.heading{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+center{
+    background-color:rgb(220, 153, 60);
+}
+.form{
+border: 3px solid rgb(48, 31, 19);
+    border-radius: 8px;
+    text-align: justify;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(220, 153, 60);
+}
+#query {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(236, 208, 118);
+}
+#query table {
+    padding: 80px;
+    margin: 10px;
+    background-color: rgb(220, 153, 60);
+}
+#query table td{
+    padding: 10px;
+    background-color: rgb(220, 153, 60);
+}
+#query table tr{
+    background-color: rgb(220, 153, 60);
+}
+.input {
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+    
+}
+.btn{
+width: 80px;
+    height: 35px;
+    background-color: rgb(92, 53, 26);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.acc{
+    color:black;
+}
+.dir{
+    color:brown;
+    font-weight: bolder;
+}
+.footer{
+        background: rgb(220, 153, 60);
+        
+     
+        
+}
+.footer p{
+    background: rgb(220, 153, 60);
+}
+table tr td{
+  
+    background-color:rgb(220, 153, 60);
+}
+body{
+    background-color: rgb(236, 208, 118);
+}
+/*.col img{
+    background-color: rgb(248, 186, 72);
+}
+h1{
+    padding: 20px;
+}
+h5{
+    position: sticky;
+}
+.row{
+    background-color: rgb(248, 186, 72);
+
+}
+.col{
+    background-color: rgb(248, 186, 72);
+display: flex;
+justify-content: center;
+}
+.col h1,h5{
+    background-color: rgb(248, 186, 72);
+}
+i{
+    background-color: rgb(248, 186, 72);
+}
+#type{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#type p{
+    font-size: 20px;
+}
+ul li{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.row2{
+    padding:70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+}
+.col2{
+    float:left;
+
+    
+}
+
+.row3{
+    padding:70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+}
+.col3{
+    float:right;
+}
+.container1{
+    background-color: orange;
+}*/
